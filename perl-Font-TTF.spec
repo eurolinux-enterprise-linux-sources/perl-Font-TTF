@@ -1,6 +1,6 @@
 Name:          perl-Font-TTF
 Version:       1.02
-Release:       2%{?dist}
+Release:       3%{?dist}
 Summary:       Perl library for modifying TTF font files
 Group:         Development/Libraries
 License:       Artistic 2.0
@@ -60,6 +60,9 @@ make test
 %exclude %{perl_vendorlib}/Font/TTF/Win32.pm
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.02-3
+- Mass rebuild 2013-12-27
+
 * Tue Nov 06 2012 Petr Šabata <contyk@redhat.com> - 1.02-2
 - Add missing dependencies
 
